@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        table, th, td, tr {
+            border: 1px solid black;
+            padding: 20px;
+            border-collapse: collapse;
+        }
+        table {
+            text-align: center;
+            margin: auto; 
+        }
+        span {
+            display: block;
+        }
+        .table {
+            text-align: center;
+            margin: auto; 
+        }
+        .table h2 {
+            font-size: 30px;
+        }
+        .table span {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .odrr1 {
+            list-style-type: upper-roman;
+        }
+        .odrr2 {
+            list-style-type: lower-alpha;
+        }
+        .udrr1 {
+            list-style-type: circle;
+        }
+        .udrr2 {
+            list-style-type: disc;
+        }
+        .firsF, label {
+            display: block;
+            margin: 10px;
+            text-align: center;
+        }
+        .firsF {
+            border: 2px solid black;
+            height: 200px;
+        }
+        .lb {
+            display: inline-block;
+        }
+        .secondF {
+            text-align: center;
+            border: 2px dotted black;
+            width: 400px;
+            height: fit-content;
+            box-sizing: border-box; /* Add this line */
+        }
+        .gender-container label {
+            display: inline-block;
+            margin-right: 10px; 
+        }
+        fieldset {
+            background-color: yellow;
+            text-align: center;
+        }
+        input[type="email"] {
+            margin-left: 35px;
+        }
+        .thiredF{
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Images in Tables</h2>
+    <hr>
+    <p>What are your favorite pets</p>
+    <table class="table1">
+        <tr>
+            <th>Pet Image</th>
+            <th>More facts about animal (as a link)</th>
+        </tr>
+        <tr><td><img src="https://as2.ftcdn.net/v2/jpg/01/24/96/37/1000_F_124963716_Rb81mdhUZrYgvnvuhIvjKQReZyORMLxe.jpg" alt="Horse image"></td><td><a href="https://en.wikipedia.org/wiki/Horse">Horse</a></td></tr>
+        <tr><td><img src="https://cdn.pixabay.com/photo/2024/02/05/16/23/labrador-8554882_960_720.jpg" alt="dog image"></td><td><a href="https://en.wikipedia.org/wiki/Dog">Dog</a></td></tr>
+        <tr><td><img src="https://cdn.pixabay.com/photo/2024/01/29/20/40/cat-8540772_1280.jpg" alt="Cat image"></td><td><a href="https://en.wikipedia.org/wiki/Cat">Cat</a></td></tr>
+    </table>
+    <br><br>
+    <hr>
+    <div class="table">
+        <h2>TIME TABLE </h2>
+        <table>
+            <tr><th>Day /period</th>
+            <th><span>I</span>9:30-10:20</th>
+            <th><span>II</span>10:20-11:10</th>
+            <th><span>III</span>11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th><span>IV</span>12:40-1:30</th>
+            <th><span>V</span>1:30-2:20</th>
+            <th><span>VI</span>2:20-3:10</th>
+            <th><span>VII</span>3:10-4:00</th>
+            </tr>
+            <tr><th>Monday</th>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="8"><span>L</span><span>U</span><span>N</span><span>C</span><span>H</span></td>
+                <td colspan="3">LAB </td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">LAB </td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORT</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB </td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB </td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td colspan="3">LAB </td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR </td>
+                <td>SPORT </td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <hr>
+    <div class="list">
+        <h2>Preceding Text</h2>
+        <ol class="odrr1">
+            <li>List item 1
+                <ol class="odrr2">
+                    <li>Nested item 1.1</li>
+                    <li>Nested item 1.2</li>
+                </ol>
+            </li>
+            <li>List item 2
+                <ol>
+                    <li>Nested item 2.1</li>
+                    <li>Nested item 2.2
+                        <ul class="udrr1">
+                            <li>Nested item 2.2.1</li>
+                            <li>Nested item 2.2.2
+                                <ul>
+                                    <li>Nested item 2.2.2.1</li>
+                                    <li>Nested item 2.2.2.2</li>
+                                </ul>
+                            </li>
+                            <li>Nested item 2.2.3</li>
+                        </ul>
+                    </li>
+                    <li>Nested item 2.3</li>
+                </ol>
+            </li>
+            <li>List item 3
+                <ul class="udrr2">
+                    <li>Nested item 3.1</li>
+                    <li>Nested item 3.2</li>
+                    <li>Nested item 3.3</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <br><br><hr>
+    <div class="firsF">
+        <h2>Our First Form</h2>
+        <form action="" method="post">
+            <label for="Username">Username:<input type="text" name="Username" id="Username"></label>
+            <label for="Pass">Password:<input type="password" name="Password" id="Pass"></label>
+            <input type="submit">
+        </form>
+    </div>
+    <br><br>
+    <hr>
+    <h2>Registration Form !</h2>
+    <div class="secondF">
+        <h3>Personal details</h3>
+        <hr>
+        <form action="" method="post">
+            <label for="First_name">First Name: <input type="text" id="First_name"></label>
+            <label for="last_name">Last Name: <input type="text" id="last_name"></label>
+            <label for="Email">Email :<input type="email" id="Email"></label>
+            <div class="gender-container">
+                <label for="" class="lb">Gender: </label>
+                <label for="Male" class="lb"><input type="radio" id="Male" name="Gender" value="Male">Male</label>
+                <label for="Female" class="lb"><input type="radio" id="Female" name="Gender" value="Female">Female</label>
+            </div>
+            <label for="City">City: <select id="City">
+                <option value="Amman">Amman</option>
+                <option value="Irbid">Irbid</option>
+                <option value="Ajloan">Ajloan</option>
+                <option value="aqaba">aqaba</option>
+            </select></label>
+            <button type="button" onclick="alert('Welcome')">sign up</button>
+        </form>
+    </div>
+    <br><br><hr>
+    <div class="thiredF">
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personal details</legend>
+                <label for="fname">First name:<input type="text" id="fname" name="fname" ></label>
+                <label for="lname">Last name: <input type="text" id="lname" name="lname"></label>
+                <label for="email">Email: <input type="email" id="email" name="email"></label>
+                <div class="gender-container">
+                    <label for="">Gender:</label>
+                    <label for="male"><input type="radio" id="male" name="Gender" value="Male">Male</label>
+                    <label for="female"><input type="radio" id="female" name="Gender" value="Female">Female</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>City</legend>
+                <label for="city">
+                    City: <select id="city">
+                        <option value="Amman">Amman</option>
+                        <option value="Irbid">Irbid</option>
+                        <option value="Ajloan">Ajloan</option>
+                        <option value="aqaba">aqaba</option>
+                    </select>
+                </label>
+            </fieldset>
+            <button type="button" onclick="alert('Welcome again')">Subscribe</button>
+        </form>
+    </div>
+</body>
+</html>
