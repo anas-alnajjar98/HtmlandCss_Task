@@ -1,0 +1,185 @@
+.orco{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 40%;
+    top: 200px;
+}
+.orn{
+    background-color:#FE9900;
+    border: #FE9900 1px solid;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    
+}
+.woor{
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+}
+.cardcontainer{
+    
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+   
+}
+.firstC,.secC,.ther{
+    border: 2px black solid;
+    position: relative;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.staticco{
+    border: 1px black dotted;
+    width:fit-content;
+    margin: 0 auto;
+
+}
+.red{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.green{
+    display: inline-block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+.relativeco{
+    border: 1px black dotted;
+    width:fit-content;
+    margin: 0 auto;
+
+}
+.red1{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.green1{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+.absolute{
+    border: 1px black dotted;
+    width:fit-content;
+    position: relative;
+    margin: 0 auto;
+
+}
+.red2{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.green2{
+    display: inline-block;
+    position: absolute;
+     top:15px;
+    left: 20px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+.mrtall{
+    background-image: url(mr_tall_vector_by_keronianniroro_ddi4x6b-375w-2x.png);
+    height: 200px;
+    background-repeat: repeat-y;
+    background-size: 100px 110px;
+    z-index: 999999;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
