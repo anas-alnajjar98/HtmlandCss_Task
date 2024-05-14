@@ -1,0 +1,50 @@
+.container{
+    border: 3px solid red;
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.a1{
+    background-color: red;
+    
+   
+}
+.a2{
+    background-color: green;
+    
+}
+.a3{
+    background-color: blue;
+    
+}
+.a4{
+    background-color: yellow;
+    
+}
+.a5{
+    background-color: violet;
+    
+}
+.a6{
+    background-color: chocolate;
+    
+}
+.a7{
+    background-color: gray;
+    
+}
+.a8{
+    background-color: mediumspringgreen;
+    
+}
+.a9{
+    background-color: sandybrown;
+    
+}
+.a10{
+    background-color: cornflowerblue;
+}
