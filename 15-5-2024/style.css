@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hd {
+    background-image: url(pexels-olly-842548.jpg);
+    background-size: 100% 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hd h1 {
+    font-size: 2rem;
+}
+
+.hd p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hd button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.cnt {
+    background-color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 2rem 0;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 325px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.section1{
+    background-color: red;
+}
+.section2{
+    background-color: green;
+}
+.section1, .section2 {
+    width: 100%;
+    padding: 3rem;
+}
+@media only screen and (max-width: 768px) {
+    .hd {
+        height: 60vh;
+    }
+    .container{
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+}
